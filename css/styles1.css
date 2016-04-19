@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#logo{
+
+}
+.home{
+    display: block;
+    height: 100vh;
+    background-image: url(../imgs/bb_BG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.links{
+    text-align: left;
+    position: absolute;
+    bottom: 30px;
+}
+.navLinks{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.contentHeaders{
+    height: 500px;
+}
+
+.block{
+    display:block;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.scrollDown{
+
+}
+.ion-chevron-down{
+    display:block;
+    padding-top:5px;
+    text-align: center;
+}
+.ion-chevron-down:hover{
+
+    color:red;
+}
+.hblock{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*mobile considerations*/
+@media screen and (max-width:480px) {
+    .links{
+        margin-top: 10px;
+        text-align: center;
+    };
+}
