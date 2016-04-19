@@ -1,7 +1,3 @@
-:hover{
-    text-decoration:none;
-}
-
 body{
     margin: 0px;
 
@@ -17,6 +13,7 @@ a{
 #logo{
     margin-top: 60px;
 }
+/* Styles for the Large Header*/
 .home{
     display: block;
     height: 100vh;
@@ -43,10 +40,7 @@ a{
     text-decoration: none;
     color: darkred;
 }
-.contentHeaders{
-    height: 500px;
-}
-
+/* Styles for the Article Bits*/
 .block{
     display:block;
     width: 100%;
@@ -54,7 +48,10 @@ a{
     padding: 10px 30px;
     margin-top: 10px;
 }
-
+.content{
+    margin:auto;
+    max-width:1000px;
+}
 .ion-chevron-down{
     display:block;
     padding-top:5px;
