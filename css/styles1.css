@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-size: 1.5em;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'Goudy Bookletter 1911', serif;
@@ -66,6 +67,29 @@ a{
     display: inline-block;
     vertical-align: middle;
 }
+
+/*Footer CSS*/
+#footer{
+background-color:black;
+color:#909090;
+margin-bottom:-15px;
+padding: 15px;
+}
+#social{
+    text-align: center;
+}
+#footer i{
+    font-size: 2em;
+    padding: 5px 10px;
+}
+#footer i:hover{
+    color: darkred;
+}
+.pageFooter ul{
+    list-style: none;
+}
+
+
 /*mobile considerations*/
 /*For Smaller Screens do this*/
 @media screen and (max-width:480px) {
