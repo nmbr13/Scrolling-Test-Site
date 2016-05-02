@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-
+    font-size: 1.5em;
 }
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'Goudy Bookletter 1911', serif;
@@ -32,18 +32,16 @@ a{
 }
 .navLinks{
     list-style-type: none;
-    text-decoration: none;
+
     text-transform: capitalize;
     font-size: 1.25em;
 }
 .navLinks:hover{
     list-style-image:url(../imgs/Icon.png);
-}
-.navLinks a:hover{
-    list-style-image:url(../imgs/Icon.png);
     text-decoration: none;
     color: darkred;
 }
+
 /* Styles for the Article Bits*/
 .block{
     display:block;

@@ -1,7 +1,17 @@
-$('navLinks').on('hover',function (){
-    $('navLinks').atte(background-color)
+
+$(document).ready(function(){
+
+    $('.block').click(function(){
+        $(this).addClass("animated shake");
+    });
+
+
+
+
+
+
+
+
+
+
 });
-$('.scrollTo ').scrollTo(
-    //target
-        var a = ("Link"+'1'),800;
-);
