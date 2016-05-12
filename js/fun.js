@@ -6,8 +6,21 @@ function addShake(){
 $(document).ready(function(){
 
     $('.block').click(addShake);
-
-
+//Smooth Scrolling from CSS-tricks.com https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
 
 
 

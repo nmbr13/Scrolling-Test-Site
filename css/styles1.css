@@ -33,11 +33,15 @@ a{
 }
 .navLinks{
     list-style-type: none;
-
     text-transform: capitalize;
     font-size: 1.25em;
 }
 .navLinks:hover{
+    list-style-image:url(../imgs/Icon.png);
+    text-decoration: none;
+    color: darkred;
+}
+a:hover{
     list-style-image:url(../imgs/Icon.png);
     text-decoration: none;
     color: darkred;
@@ -67,7 +71,22 @@ a{
     display: inline-block;
     vertical-align: middle;
 }
-
+/* Logo Tray*/
+.logoTray{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+}
+.retailerLogo{
+    padding:15px;
+    width: 25%;
+}
+.retailerLogo img{
+    display: inline-block;
+    width: 100%;
+    padding:5px;
+}
 /*Footer CSS*/
 #footer{
 background-color:black;
@@ -88,6 +107,14 @@ padding: 15px;
 }
 .pageFooter ul{
     list-style: none;
+    /*border: 2px solid red;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.pageFooter li{
+    display:inline;
+    padding:20px;
 }
 
 
